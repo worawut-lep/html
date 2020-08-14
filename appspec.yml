@@ -5,6 +5,6 @@ files:
     destination: /var/www/html/web1
 hooks:
   BeforeInstall:
-  - location: - location: /var/www/script/prepare_location.sh
+  - location: /var/www/script/prepare_location.sh
     timeout: 300
     runas: root
