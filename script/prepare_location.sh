@@ -1,6 +1,11 @@
 #!/bin/sh
 
-rm -rf /var/www/html/web1/.*
-rm -rf /var/www/html/web1/*
-cd /var/www/html/web1
-echo $(pwd) > /var/www/html/web1/cu.html
+#PATH=/var/www/html/shitamachi
+PATH=/var/www/html/web1/
+
+rm -rf /var/www/html/shitamachi/.*
+rm -rf /var/www/html/shitamachi/*
+cd /var/www/html/shitamachi
+
+mkdir -p /var/www/html/shitamachi/public
+echo $(pwd) > /var/www/html/shitamachi/public/index.html
